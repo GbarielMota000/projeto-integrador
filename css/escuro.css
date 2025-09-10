@@ -1,0 +1,406 @@
+body {
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #9c9c9c;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.site-info {
+    max-width: 60%;
+    text-align: center;
+}
+
+.site-info h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.login-social {
+    text-align: right;
+}
+
+.login-social input {
+    margin: 5px 0;
+    padding: 5px;
+}
+
+.social-icones img {
+    width: 24px;
+    margin: 5px;
+    vertical-align: middle;
+}
+
+.ativistas {
+    background-color: #727272;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.ativista {
+    text-align: center;
+    max-width: 200px;
+    margin: 10px;
+}
+
+.ativista img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.conteudo {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.info1,
+.info2 {
+    flex: 1;
+    min-width: 250px;
+    margin: 10px;
+}
+
+.centr-image {
+    text-align: center;
+    margin: 30px 0;
+    width: 2000px;
+}
+
+.centr-image img {
+    max-width: 100%;
+    height: 400px;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+.info2 h1 {
+    color: black;
+    margin: 0;
+    font-size: 35px;
+}
+
+.info2 h2 {
+    color: rgb(12, 12, 12);
+}
+
+.info2 h3 {
+    color: rgb(39, 39, 39);
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+.conteúdo2 {
+    display: flex;
+}
+
+.conteúdo2 ul {
+    list-style-type: none;
+}
+
+.conteúdo2 img {
+    width: 300px;
+    height: 400px;
+}
+
+.ativista a {
+    color: black;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulovini {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body>l1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.traduzir {
+    list-style: none;
+    background-color: #333;
+    display: flex;
+    float: right;
+}
+
+.traduzir li {
+    position: relative;
+}
+
+.traduzir li a {
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: rgb(143, 143, 143);
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: #444444;
+}
+
+.submenu li a {
+    display: block;
+    text-decoration: none;
+    justify-content: first baseline;
+    color: rgb(255, 255, 255);
+}
+
+.submenu li a:hover {
+    background-color: #353535;
+}
+
+.traduzir li:hover .submenu {
+    display: block;
+}
+
+button {
+    background-color: #444444;
+}
+
+.cordosite a {
+    color: #e0e0e0;
+}
+
+.cordosite{
+    display: flex;
+    justify-content:space-between;
+}body {
+  font-family: Arial, Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: #afafaf;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.site-info {
+  max-width: 60%;
+  text-align: center;
+}
+
+.site-info h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+
+
+.login-social {
+  text-align: right;
+}
+
+.login-social input {
+  margin: 5px 0;
+  padding: 5px;
+}
+
+.social-icones img {
+  width: 24px;
+  margin: 5px;
+  vertical-align: middle;
+}
+
+.ativistas {
+  background-color: #797979;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.ativista {
+  text-align: center;
+  max-width: 200px;
+  margin: 10px;
+}
+
+.ativista img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.conteudo {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.info1, .info2 {
+  flex: 1;
+  min-width: 250px;
+  margin: 10px;
+}
+
+.centr-image {
+  text-align: center;
+  margin: 30px 0;
+  width: 2000px;
+}
+
+.centr-image img {
+  max-width: 100%;
+  height: 400px;
+}
+
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
+
+.info2 h1{
+color: black;
+margin: 0;
+  font-size: 35px;
+
+}
+
+.info2 h2{
+color: rgb(12, 12, 12);
+}
+
+.info2 h3{
+color: rgb(39, 39, 39);
+}
+
+
+main{
+  max-width: 1200px; /* Limita a largura máxima do main a 1200 pixels */
+  margin: 0 auto; /* Centraliza o elemento */
+}
+
+.conteúdo2{
+  display: flex;
+  
+}
+
+.conteúdo2 ul{
+   list-style-type: none;
+}
+
+.conteúdo2 img{
+  width: 300px;
+  height: 400px;
+ 
+}
+
+.ativista a{
+  color: black;
+}
+
+.video{
+  display: flex;
+      justify-content: center; 
+      align-items: center;
+}
+
+.titulo{
+   display: flex;
+      justify-content: center; 
+      align-items: center;
+}
+ .titulovini{
+ display: flex;
+      justify-content: center; 
+      align-items: center;
+ }
+ body>l1 {
+  font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .menu {
+    list-style: none;
+    background-color: #333;
+    display: flex;
+    float: right;
+}
+
+.menu li {
+    position: relative;
+
+
+}
+
+.menu li a {
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: rgb(143, 143, 143);
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: #444444;
+}
+
+.submenu li a {
+    display: block;
+    text-decoration: none;
+    justify-content: first baseline;
+    color: rgb(255, 255, 255);
+}
+
+.submenu li a:hover {
+    background-color: #353535;
+}
+
+.menu li:hover .submenu {
+    display: block;
+}
+
+button{
+  background-color: #444444;
+}
+
+.cordosite a{
+  color: #e0e0e0;
+}
